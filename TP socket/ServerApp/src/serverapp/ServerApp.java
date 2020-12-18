@@ -24,7 +24,6 @@ public class ServerApp {
 
         // Read message sent by the client
         String str = inServer.readLine();
-        System.out.println("enitier liee");
         int nb =Integer.parseInt(str);
         for(int i=1;i<=nb;i++){
             int cpt=0;
